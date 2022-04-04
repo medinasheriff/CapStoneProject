@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project</title>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css"/>
+
+</head>
+<body>
+<div class="main">
+    <div class="wrapper dark-mode" id="dark">
+        <!--top items(picture, name and contact info) starts here-->
+    <nav class="info">
+        <div class="topper">
+           
+            <!--<img class="light-bg" src="photos/myavatar.jpg" alt="an avatar image of me" height="200">-->
+        <img class="dark-bg" src="photos/darkavatar.jpg" alt="a dark background avatar of me" height="150">
+        
+            <div class="name">
+                <p><span>Medina</span>
+                <div class="surname">Sheriff</div></p>
+            </div> 
+        </div>   
+        
+            <ul class="contact-info">
+            <li class="contact-item phone">+234 8036809914</li>
+            <li class="contact-item email"> 
+                <a href="https://mailto:@medlin142@gmail.com" target="_blank">medlin142@gmail.com</a></li>
+            <li class="contact-item github">
+                <a href="https://github.com/" target="_blank">github: medinasheriff</a></li></ul>
+        </nav>
+        <!--top items end here-->
+      
+        <!--resume body contents start-->
+    <div class="item intro collapsible">
+        <h3>INTRODUCTION:</h3>
+    </div>
+    <div class="item-body content"><p>Hi, my name is Medina and I am currently working my way through programs to becoming a software developer.
+        First, by participating in the <a href="https://www.ehealthafrica.org/press-release-announcing-all-female-cohort-of-eha-academy">eHealth Africa Academy</a> female-only Tech skills training program
+        and also applying to the Alt School Africa Frontend developer training. The long term goal is to become a full stack developer and
+        probably a Technical architect in future. I am a natural <em>fixer</em>, so, the opportunity to create, fix and see webpages I
+        develop is one of the most thrilling experience for me. </p>
+    </div>
+        <hr>
+
+        <div class="item interests collapsible">
+            <h3>INTERESTS:</h3>
+        </div>
+        <div class="item-body content">
+            <p>Reading, Web development, Travelling, and Surfing the net.</p>
+        </div>
+        <hr>
+
+        <div class="item skills collapsible">
+            <h3>SKILLS:</h3>
+        </div>
+        <div class="item-body content">
+        <div class="grid-container">
+        <figure><a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics" target="_blank">
+            <img src="photos/html.jpg" alt="a colorful HTML logo" height="90">
+            </a>
+            <figcaption>HTML</figcaption>
+        </figure>
+        
+        <figure><a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">
+             <img src="photos/css.png" alt="blue css logo" height="90">
+            </a>
+            <figcaption>CSS</figcaption>
+        </figure>
+
+        <figure><a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript" target="_blank">
+            <img src="photos/js.png" alt="a yellow javascript logo" height="90">
+           </a>
+            <figcaption>JAVASCRIPT</figcaption>
+        </figure>
+        </div>
+        </div>
+        <hr>
+
+        <div class="item education collapsible">
+            <h3>EDUCATION:</h3>
+        </div>
+        <div class="item-body content">
+            <div class="education">
+        <div class="experience-info">
+            <ul>
+                <li><strong>eHEALTH AFRICA ACADEMY 2022 COHORT</strong> (female-only).</li>
+             <P>January 2022 - Date</P>
+            
+            <li><strong>ALT SCHOOL AFRICA</strong> (In view).</li>
+             <P>April 2022</P>
+            </ul>
+        </div>
+            </div>
+        </div>
+          <hr>
+
+        <div class="item project collapsible"><h3>PROJECTS:</h3></div>
+        <div class="item-body content">
+            <a href="https://github.com/medinasheriff?tab=repositories" target="_blank">eHealth Africa Academy Challenges.</a></div>
+        <hr>
+
+        <div class="item social collapsible"><h3>SOCIAL:</h3></div>
+        <div class="item-body content">
+        <div class="grid-container">
+        <figure><a href="instagram.com/mdshade.lina" target="_blank">
+            <img src="photos/instagram.webp" alt="instagram logo" height="70">
+           </a>
+            <figcaption>@mdshade.lina</figcaption>
+        </figure>
+
+        <figure><a href="https://www.linkedin.com/in/medinat-adeniran-35085239" target="_blank">
+            <img src="photos/linkedin.png" alt="linkedin logo" height="70">
+           </a>
+            <figcaption>Medina (Sheriff) Adeniran</figcaption>
+        </figure>
+
+        <figure><a href="https://www.twitter.com/shadesofwealth" target="_blank">
+            <img src="photos/twitter.jpg" alt="twitter logo" height="70">
+        </a>
+           <figcaption>@shadesofwealth</figcaption>
+       </figure>
+        </div>
+    </div>
+    <!--resume body contents end-->
+
+    <!--theme switch button-->
+    <button class="darkmodebox" onclick = "myFunction()">
+        <img src="photos/nighttime.webp" height="20">Change Theme
+        <img src="photos/daylight.webp" height="20">
+    </button>
+   
+    <!--back to top function-->
+        <button onClick="topFunction()"
+        id="myBtn" title="go to top">
+        <img src="photos/arrow.png" alt="top pointer arrow" height="20">back to top
+    </button>
+    </div>
+          
+</div>
+
+<!--javascript here-->
+<script src="javascript.js">
+   </script>
+    
+</body>
+</html>
