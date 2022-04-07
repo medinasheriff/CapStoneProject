@@ -28,7 +28,7 @@ padding: 60px;}
     column-gap:10px;
 grid-template-columns: auto auto auto auto auto auto;}
 
-.dark-bg {border-radius: 49px;
+.light-bg {border-radius: 49px;
 margin-right:30px;}
 
 .name {align-self: center;
