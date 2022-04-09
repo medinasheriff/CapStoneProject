@@ -87,7 +87,7 @@ color: white;}
     
 .wrapper {margin:0; flex-wrap: nowrap;}
 img {max-width: 100%;}
-.topper {display:block;}
+.topper {display:flex; flex-direction:column;}
 }
 /*for phone screens*/
 @media (max-width:380px) {.content, .item-body {display:block;}
