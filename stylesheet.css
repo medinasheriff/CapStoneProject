@@ -92,7 +92,7 @@ img {max-width: 100%;}
 /*for phone screens*/
 @media (max-width:380px) {.content, .item-body {display:block;}
 .main {margin-left: 20%; margin-right:20%; display: flex; flex-direction: row;
-flex-wrap: wrap; justify-content: flex-start;}
+/*flex-wrap: wrap; justify-content: flex-start;*/}
 }
 
 /*dark mode for small screens*/
