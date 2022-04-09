@@ -78,7 +78,7 @@ color: white; cursor: pointer; padding: 15px; border-radius: 4px;}
 .mystyle {background-color: black;
 color: white;}
 
-
+.mystyle h3 {color:aquamarine;}
 /*for responsiveness
 I tried not less than 6 times(deleted) after watching and reading more than 9 videos and 15 notes
 but i must be missing something. I will keep learning, but i have to do this first 1 without.*/
