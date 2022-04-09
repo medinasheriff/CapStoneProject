@@ -87,11 +87,11 @@ color: white;}
     
 .wrapper {margin:0; flex-wrap: nowrap;}
 img {max-width: 100%;}
-.topper {display:none;}
+.topper {display:block;}
 }
 /*for phone screens*/
 @media (max-width:380px) {.content, .item-body {display:block;}
-.main {margin-left: 50%; display: flex; flex-direction: row;
+.main {margin-left: 20%; margin-right:20%; display: flex; flex-direction: row;
 flex-wrap: wrap; justify-content: flex-start;}
 }
 
